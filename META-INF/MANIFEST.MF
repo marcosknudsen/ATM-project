@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Description: A pure Java library for reading from and writing t
+ o MS Access databases.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: com.healthmarketscience.jackcess
+Built-By: james
+Bnd-LastModified: 1599788675694
+Bundle-ManifestVersion: 2
+Bundle-DocURL: https://openhms.sourceforge.io/
+Bundle-Vendor: OpenHMS
+Import-Package: com.healthmarketscience.jackcess.complex,com.healthmar
+ ketscience.jackcess.query,javax.script,org.apache.commons.lang3;versi
+ on="[3.10,4)",org.apache.commons.lang3.builder;version="[3.10,4)",org
+ .apache.commons.lang3.text;version="[3.10,4)",org.apache.commons.logg
+ ing;version="[1.2,2)",org.apache.poi.poifs.filesystem;resolution:=opt
+ ional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.3.0.201405100607
+Export-Package: com.healthmarketscience.jackcess;uses:="com.healthmark
+ etscience.jackcess.complex,com.healthmarketscience.jackcess.expr,com.
+ healthmarketscience.jackcess.query,com.healthmarketscience.jackcess.u
+ til";version="3.5.1",com.healthmarketscience.jackcess.expr;uses:="jav
+ ax.script";version="3.5.1",com.healthmarketscience.jackcess.util;uses
+ :="com.healthmarketscience.jackcess";version="3.5.1",com.healthmarket
+ science.jackcess.complex;uses:="com.healthmarketscience.jackcess";ver
+ sion="3.5.1",com.healthmarketscience.jackcess.query;version="3.5.1"
+Bundle-Name: Jackcess
+Bundle-Version: 3.5.1
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_192
+
